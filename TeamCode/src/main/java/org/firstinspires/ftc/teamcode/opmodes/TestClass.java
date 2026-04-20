@@ -1,4 +1,11 @@
 package org.firstinspires.ftc.teamcode.opmodes;
 
+import java.util.Scanner;
+
 public class TestClass {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String message = sc.next();
+        System.out.println("Message received: " + message);
+    }
 }
